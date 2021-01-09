@@ -2,21 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/bootstrapEX.css">
 
         <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> 
 
-        <title>Portfolio website complete</title>
+        <link rel="shortcut icon" type="image/ico" href="assets/img/perfil.png"/>
+        <title>Manzar Abbas - Portfolio</title>
     </head>
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Marlon</a>
+                    <a href="#" class="nav__logo">Manzar</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -24,7 +26,8 @@
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+                        <li class="nav__item"><a href="#testimonials" class="nav__link">Testimonials</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -39,15 +42,18 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi, I'm <span class="home__title-color">Manzar</span><br>Data Scientist &amp; <br> Machine Learning <br> Expert</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <!-- Removing contact button -->
+                    <!--
+                    <a href="#contact" class="button">Contact</a>
+                    -->
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/manzar-abbas-8392b6178/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://facebook.com/MnazarAbbas" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://github.com/manzar-123" class="home__social-icon"><i class='bx bxl-github'></i></a>
                 </div>
 
                 <div class="home__img">    
@@ -56,17 +62,14 @@
             </section>
 
             <!--===== ABOUT =====-->
-            <section class="about section " id="about">
+            <section class="about section" id="about">
                 <h2 class="section-title">About</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
+                <div class="about__container">
                     
-                    <div>
-                        <h2 class="about__subtitle">I'am Marlon</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    <div class="col-12 col-md-6 offset-md-3 offset-lg-3 col-lg-5" style="float:center;">
+                        <h2 class="about__subtitle">I am Manzar Abbas</h2>
+                        <p class="about__text">A medical student (MBBS) in Aga Khan University, Pakistan. I started my data-scientist journey back in March 2020, when after a month of practice, I was able to make a website for the Student Taskforce Against COVID-19 <a href="http://stac19.org" target="_blank">(STAC-19)</a><br> Continuing with my journey, I started with R, which lead me to learn not only Machine Learning, but also Deep Learning in the following months.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -78,23 +81,23 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <p class="skills__text"></p>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
+                                <i class='skills__icon'><img src="assets/icon/ml.png" width="32px" height="32px" alt="" /></i>
+                                <span class="skills__name">Machine/Deep Learninng</span>
                             </div>
                             <div class="skills__bar skills__html">
 
                             </div>
                             <div>
-                                <span class="skills__percentage">95%</span>
+                                <span class="skills__percentage">90%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
+                                <i class='skills__icon'><img src="assets/icon/dsi.png" width="32px" height="32px" alt="" /></i>
+                                <span class="skills__name">Data Science</span>
                             </div>
                             <div class="skills__bar skills__css">
                                 
@@ -105,20 +108,20 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
+                                <i class='skills__icon' ><img src="assets/icon/pr.png" width="32px" height="32px" alt="" /></i>
+                                <span class="skills__name">Programming/Web developing</span>
                             </div>
                             <div class="skills__bar skills__js">
                                 
                             </div>
                             <div>
-                                <span class="skills__percentage">65%</span>
+                                <span class="skills__percentage">75%</span>
                             </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
+                                <span class="skills__name">Graphic Designing</span>
                             </div>
                             <div class="skills__bar skills__ux">
                                 
@@ -127,15 +130,442 @@
                                 <span class="skills__percentage">85%</span>
                             </div>
                         </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'><img src="assets/icon/media.png" width="32px" height="32px" alt="" /></i>
+                                <span class="skills__name">Media and Marketing</span>
+                            </div>
+                            <div class="skills__bar skills__media">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
                     </div>
                     
                     <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                        <img src="assets/img/art.png" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
 
-            <!--===== WORK =====-->
+            <!--===== Popup Certificates =====-->
+<section class="certificates section" id="certificates">
+    
+
+<style>
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #fff;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: auto;
+  padding: 0;
+  width: 45%;
+  height: auto;
+}
+@media screen and (max-width: 768px){
+    .modal-content{
+        width: 100%;
+        height: auto;
+    }
+}
+/* The Close Button */
+.close {
+  color: #4070F4;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  background-color: #4070F4;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #4070F4;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 15px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+
+
+<h2 class="section-title">Certificates</h2>
+
+<div class="work__container bd-grid">
+
+  <div class="work__img">
+    <img src="assets/img/11.jpg" style="width:100%" onclick="openModal1();currentSlide1(1)" class="hover-shadow cursor">
+  </div>
+  <div class="work__img">
+    <img src="assets/img/2.jpg" style="width:100%" onclick="openModal2();currentSlide2(1)" class="hover-shadow cursor">
+  </div>
+  <div class="work__img">
+    <img src="assets/img/3.jpg" style="width:100%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
+  </div>
+
+</div>
+
+<!--1st modal-->
+<div id="myModal1" class="modal">
+  <span class="close cursor" onclick="closeModal1()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides1">
+      <div class="numbertext">1 / 7</div>
+      <img src="assets/certificates/datascience/dstoolbox.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">2 / 7</div>
+      <img src="assets/certificates/datascience/data-analysis.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">3 / 7</div>
+      <img src="assets/certificates/datascience/ml-c.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides1">
+      <div class="numbertext">4 / 7</div>
+      <img src="assets/certificates/datascience/intro.jpeg" style="width:100%">
+    </div>
+    <div class="mySlides1">
+      <div class="numbertext">5 / 7</div>
+      <img src="assets/certificates/datascience/ml-ud.jpg" style="width:100%">
+    </div>
+    <div class="mySlides1">
+      <div class="numbertext">6 / 7</div>
+      <img src="assets/certificates/datascience/stats-beg.jpg" style="width:100%">
+    </div>
+    <div class="mySlides1">
+      <div class="numbertext">7 / 7</div>
+      <img src="assets/certificates/datascience/stats-int.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption">Machine Learninng &amp; Data Science</p>
+    </div>
+    
+  </div>
+</div>
+<!--1st modal-->
+
+<!--2nd modal-->
+<div id="myModal2" class="modal">
+  <span class="close cursor" onclick="closeModal2()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides2">
+      <div class="numbertext">1 / 6</div>
+      <img src="assets/certificates/programming/r-c.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">2 / 6</div>
+      <img src="assets/certificates/programming/r-ud.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides2">
+      <div class="numbertext">3 / 6</div>
+      <img src="assets/certificates/programming/sql-c.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides2">
+      <div class="numbertext">4 / 6</div>
+      <img src="assets/certificates/programming/sql-solo.jpg" style="width:100%">
+    </div>
+    <div class="mySlides2">
+      <div class="numbertext">5 / 6</div>
+      <img src="assets/certificates/programming/html-solo.jpg" style="width:100%">
+    </div>
+    <div class="mySlides2">
+      <div class="numbertext">6 / 6</div>
+      <img src="assets/certificates/programming/html-quadragon.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption">Programming &amp; Languages</p>
+    </div>
+    
+  </div>
+</div>
+<!--2nd modal-->
+
+<!--3rd modal-->
+<div id="myModal3" class="modal"> 
+  <span class="close cursor" onclick="closeModal3()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides3">
+      <div class="numbertext">1 / 12</div>
+      <img src="assets/certificates/extra/chest-cme.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides3">
+      <div class="numbertext">2 / 12</div>
+      <img src="assets/certificates/extra/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides3">
+      <div class="numbertext">3 / 12</div>
+      <img src="assets/certificates/extra/3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">4 / 12</div>
+      <img src="assets/certificates/extra/4.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">5 / 12</div>
+      <img src="assets/certificates/extra/5.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">6 / 12</div>
+      <img src="assets/certificates/extra/6.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">7 / 12</div>
+      <img src="assets/certificates/extra/7.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">8 / 12</div>
+      <img src="assets/certificates/extra/1.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">9 / 12</div>
+      <img src="assets/certificates/extra/microfest.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">10 / 12</div>
+      <img src="assets/certificates/extra/github.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">11 / 12</div>
+      <img src="assets/certificates/extra/ele.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides3">
+      <div class="numbertext">12 / 12</div>
+      <img src="assets/certificates/extra/spie3.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption">ACCME &amp; Miscellaneous</p>
+    </div>
+    
+  </div>
+</div>
+<!--3rd modal-->
+
+
+
+
+    
+   <!-- <div class="Container">
+        <div>
+            <h2 class="section-title">Certificates</h2>
+            
+        </div>
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="LeftContent">
+                    <p>Programming Related Certificates</p>
+                </div>
+                <div class="RightContent">
+                    <img class="" src="assets/certificates/programming/r-c.jpeg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-ud.jpg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-c.jpeg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-ud.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="Container">
+        
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="LeftContent">
+                    <p>Programming Related Certificates</p>
+                </div>
+                <div class="RightContent">
+                    <img class="" src="assets/certificates/programming/r-c.jpeg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-ud.jpg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-c.jpeg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-ud.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="Container">
+        
+        <div class="Content">
+            <div class="Wrapper">
+                <div class="LeftContent">
+                    <p>Programming Related Certificates</p>
+                </div>
+                <div class="RightContent">
+                    <img class="" src="assets/certificates/programming/r-c.jpeg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-ud.jpg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-c.jpeg" alt="" />
+                    <img class="" src="assets/certificates/programming/r-ud.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+                   ===== Certificates =====
+            
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div> -->
+            </section>
+
+            <!--===== WORK =====
             <section class="work section" id="work">
                 <h2 class="section-title">Work</h2>
 
@@ -159,7 +589,79 @@
                         <img src="assets/img/work6.jpg" alt="">
                     </div>
                 </div>
-            </section>
+            </section> -->
+
+            <!--===== Testimonial =====-->
+            
+        <section class="section" id="testimonials">
+        <div class="about-testimonial">
+            <h2 class="section-title">Testimonials</h2>
+            
+            <div class="container">
+                <!--Row 1 started -->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="testimonial-cont">
+                            <div class="entry-content">
+                                <p>Manzar's appetite for taking risks and accepting new challenges is what makes him stand out as a learner & a leader!</p>
+                            </div>
+    
+                            <div class="entry-footer d-flex flex-wrap align-items-center mt-4">
+                                <img src="assets/img/muhammadali.jpg" alt="">
+    
+                                <h4>Muhammad Ali</h4>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-md-6 offset-lg-2 col-lg-5">
+                        <div class="testimonial-cont">
+                            <div class="entry-content">
+                                <p>Thank you for mentoring us beginners to the realms of coding! Relished the entire learning process; customized zoom sessions, flexible timings and fun tasks.</p>
+                            </div>
+    
+                            <div class="entry-footer d-flex flex-wrap align-items-center mt-4">
+                                <img src="assets/img/javeria.jpeg" alt="">
+    
+                                <h4>Javeria Bilal Qamar<span></span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--Row 1 ended -->
+                
+                <!--Row 2 started -->
+                <div class="row"> 
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="testimonial-cont">
+                            <div class="entry-content">
+                                <p>Manzar is a thorough professional and a pleasure to work with. He combines a keen interest to learn with the ability to think creatively and apply concepts to problem-solving. His continued commitment to learning makes him an increasingly capable researcher and data scientist!</p>
+                            </div>
+    
+                            <div class="entry-footer d-flex flex-wrap align-items-center mt-4">
+                                <img src="assets/img/russell.jpeg" alt="">
+    
+                                <h4>Russell Seth Martins</h4>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-md-6 offset-lg-2 col-lg-5">
+                        <div class="testimonial-cont">
+                            <div class="entry-content">
+                                <p>The best thing about Manzar is that he loves to learn and loves to help others learn. I have turned to him countless times whenever I got stuck, he not only helped me get out of the problem but also guided me so that I do not get stuck again. I have learned so much from him!</p>
+                            </div>
+    
+                            <div class="entry-footer d-flex flex-wrap align-items-center mt-4">
+                                <img src="assets/img/hajra.jpeg" alt="">
+    
+                                <h4>Hajra Malik<span></span></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -170,21 +672,24 @@
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input type="button" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>
-        </main>
-
+            
+    </main>
+        
+        
         <!--===== FOOTER =====-->
+        
         <footer class="footer">
-            <p class="footer__title">Marlon</p>
+            <p class="footer__title">Manzar Abbas</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/manzar-abbas-8392b6178/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.facebook.com/MnazarAbbas" target="_blank" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://github.com/manzar-123" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
-            <p>&#169; 2020 copyright all right reserved</p>
+            <p>&#169; 2021 copyright all right reserved</p>
         </footer>
 
 
@@ -193,5 +698,130 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
-    </body>
+        
+        <!--===== Certificates Modal  =====-->
+        
+<script>
+function openModal1() {
+  document.getElementById("myModal1").style.display = "block";
+}
+
+function closeModal1() {
+  document.getElementById("myModal1").style.display = "none";
+}
+function openModal2() {
+  document.getElementById("myModal2").style.display = "block";
+}
+
+function closeModal2() {
+  document.getElementById("myModal2").style.display = "none";
+}
+function openModal3() {
+  document.getElementById("myModal3").style.display = "block";
+}
+
+function closeModal3() {
+  document.getElementById("myModal3").style.display = "none";
+}
+
+
+//set1
+var slideIndex = 1;
+showSlides1(slideIndex);
+
+function plusSlides1(n) {
+  showSlides1(slideIndex += n);
+}
+
+function currentSlide1(n) {
+  showSlides1(slideIndex = n);
+}
+
+//set2
+var slideIndex = 1;
+showSlides2(slideIndex);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex = n);
+}
+
+//set3
+var slideIndex = 1;
+showSlides3(slideIndex);
+
+function plusSlides3(n) {
+  showSlides3(slideIndex += n);
+}
+
+function currentSlide3(n) {
+  showSlides3(slideIndex = n);
+}
+
+
+
+//set1
+function showSlides1(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+//set2
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+//set3
+function showSlides3(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides3");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+        
+        
+</body>
 </html>
